@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "@mui/material/Divider";
-import logoCookta from "../../assets/logo-cookta2.jpeg";
+import logoCookta from "../../assets/logo-cookta2.webp";
 import { BiCookie } from "react-icons/bi";
 
 const ComoComprar = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import logoCookta from "../../assets/logo-cookta.jpeg";
+import logoCookta from "../../assets/logo-cookta.webp";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { SiInstagram } from "react-icons/si";

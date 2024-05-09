@@ -1,5 +1,5 @@
 import React from "react";
-import logoCookta from "../../assets/logo-cookta2.jpeg";
+import logoCookta from "../../assets/logo-cookta2.webp";
 
 const Nosotros = () => {
   return (
