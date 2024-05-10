@@ -18,13 +18,40 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+.animation-left {
+  animation: reveal-left cubic-bezier(0.65, 0, 0.55, 0) both 1.8s;
+}
+
+.animation-right {
+  animation: reveal-right cubic-bezier(0.65, 0, 0.55, 0) both 1.8s;
+}
+
+@keyframes reveal-left {
+  from {
+    transform: translateX(-49.6vw);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-70vw);
+   opacity: 0;
+  }
+}
+@keyframes reveal-right {
+  from {
+    transform: translateX(49.6vw);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(70vw);
+   opacity: 0;
+  }
+}
+
 .initial-transition-bg {
   background-image: url("./assets/pattern-bg.jpg");
 }
 .home-bg {
   background-image: url("./assets/pattern-bg.jpg");
-  background-blend-mode: overlay;
-  background-color: rgba(0,0,0,0.2);
 }
 
 .blur-l-box {
