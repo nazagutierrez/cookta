@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'brown': '#B67F60',
+        'brown': '#C39A6C',
+        'brown2': '#a07f59',
         'brown-dark': '#503221',
         'brown-dark-2': '#66422d',
         'brown-light': '#e0a37f',
-        'brown-cookie': '#d19470',
-        'brown-budin': '#c77f47'
+        'brown-cookie': '#a87d4d',
+        'brown-budin': '#794c34'
       },
     },
   },
