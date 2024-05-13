@@ -1,20 +1,19 @@
 import React from "react";
 import Divider from "@mui/material/Divider";
-import logoCookta from "../../assets/logo-cookta2.webp";
+import logoCookta from "../../assets/logo-cookta-grande.png";
 import { BiCookie } from "react-icons/bi";
+import { CustomDivider } from "./CustomDivider";
 
 const ComoComprar = () => {
   return (
-    <div className="bg-brown-light h-full w-full pt-24 px-11">
+    <div className="bg-brown h-screen w-full pt-28">
       <div className="flex flex-col items-center justify-center text-center">
         <h1 className="text-brown-dark-2 title-style mb-9">Como comprar</h1>
-        <div className="w-2/3 h-full text-center">
+        <div className="flex flex-col justify-center items-center w-2/3 h-full text-center text-xl">
           <div>
             Observa la lista de productos y elige el/los que quiera/s comprar
           </div>
-          <div className="text-sm text-brown-dark-2 py-3">
-            <Divider />
-          </div>
+          <CustomDivider />
           <div>
             Llamanos o escribenos por telefono al{" "}
             <a
@@ -27,9 +26,7 @@ const ComoComprar = () => {
             </a>{" "}
             para hacer el pedido
           </div>
-          <div className="text-sm text-brown-dark-2">
-            <Divider>O</Divider>
-          </div>
+          <CustomDivider>o también</CustomDivider>
           <div>
             Escribenos un mensaje privado en nuestro instagram{" "}
             <a
@@ -42,33 +39,28 @@ const ComoComprar = () => {
             </a>{" "}
             para hacer el pedido
           </div>
-          <div className="text-sm text-brown-dark-2 py-3">
-            <Divider />
-          </div>
-          <div>El pago debe ser realizado en efectivo o por transferencia</div>
-          <div className="text-sm text-brown-dark-2 py-3">
+          <CustomDivider />
+          <div>El pago puede ser realizado en efectivo o por transferencia</div>
+          <div className="text-brown-dark-2 py-3">
             <Divider />
           </div>
           <div>Retirar el pedido por Alvarez Rodríguez 133 a una fecha y hora acordada </div>
-          <div className="text-sm text-brown-dark-2 py-3">
-            <Divider />
-          </div>
+          <CustomDivider />
           <div className="flex justify-center items-center gap-2">
-          <BiCookie /> Y por ultimo disfrutar de nuestros deliciosos productos! <BiCookie />
+            <BiCookie /> 
+              Y por ultimo disfrutar de nuestros deliciosos productos! 
+            <BiCookie />
           </div>
-          <div className="text-sm text-brown-dark-2 py-3">
-            <Divider />
-          </div>
+          <CustomDivider />
           <p>
             Cualquier consulta no dudes en comunicarte con nosotros!
           </p>
-          <div className="text-2xl text-brown-dark-2">
-            <Divider>
+          <CustomDivider> 
+            <i className="text-2xl">
               <BiCookie />
-            </Divider>
-          </div>
+            </i>
+          </CustomDivider>
         </div>
-        <img src={logoCookta} alt="logo-cookta" className="h-96 mt-2 mb-5 rounded-md object-contain" />
       </div>
     </div>
   );
