@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Drawer, Box } from "@mui/material";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import logoCookta from "../../assets/logo-cookta.webp";
+import logoCookta from "../../assets/logo-cookta.png";
 import { motion } from "framer-motion";
 import { SiInstagram } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
