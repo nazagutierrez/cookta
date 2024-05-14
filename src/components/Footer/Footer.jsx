@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="flex w-full justify-around xl:justify-between bg-brown h-44 border-b border-brown-dark/40 text-brown-dark">
+      <div className="flex w-full justify-around border-t xl:justify-between bg-brown-cookie h-32 border-b border-brown-dark/40 text-brown-dark">
         <h1 className="xl:flex text-6xl font-light p-6 h-full items-center justify-start hidden">
           Cookta
         </h1>
@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center p-5 h-28 sm:h-16 w-full text-brown-dark font-medium text-center bg-brown">
+      <div className="flex justify-between items-center p-5 h-28 sm:h-16 w-full text-brown-dark font-medium text-center bg-brown-cookie">
         <div>
           <span>© Copyright {date}.</span>
           <span>
@@ -88,7 +88,7 @@ const Footer = () => {
               <IoMdMail />
             </a>
             <a
-              href="https://www.linkedin.com/in/nazarenogutierrezoficial/"
+              href="https://www.linkedin.com/in/nazarenogutierrez1/"
               target="_blank"
               rel="noreferrer"
               className="hover:opacity-70 transition-all"

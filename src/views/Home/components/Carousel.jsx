@@ -13,15 +13,15 @@ const theme = createTheme({
 
 const buttonStyle = {
   position: "absolute",
-  backgroundColor: "#e0a37f65",
+  backgroundColor: "#C39A6C",
   top: "39%",
   zIndex: 50,
   height: "50px",
   minWidth: "50px",
-  fontSize: "1.5rem",
+  fontSize: "1.9rem",
   borderRadius: 10,
   "&:hover": {
-    backgroundColor: "#e0a37f99",
+    backgroundColor: "#a07f59",
   },
 };
 
@@ -93,7 +93,7 @@ const Carousel = ({ imgArray, handleClose }) => {
               exit="exit"
               src={imgArray[imgIndex]}
               className="object-contain object-center absolute w-full h-full"
-              key={imgArray[imgIndex]}
+              key={imgIndex}
               custom={direction}
             />
           </AnimatePresence>
