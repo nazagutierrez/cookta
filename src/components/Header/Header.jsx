@@ -1,5 +1,5 @@
 import React from "react";
-import logoCookta from "../../assets/logo-cookta.png";
+import logoCookta from "../../assets/logo-cookta.webp";
 import { Link } from "react-router-dom";
 import { SiInstagram } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";

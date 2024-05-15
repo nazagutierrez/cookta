@@ -1,5 +1,5 @@
 import React from "react";
-import logoCookta from "../../assets/logo-cookta-grande.png";
+import logoCookta from "../../assets/logo-cookta-grande.webp";
 import Atropos from "atropos/react";
 import "atropos/css";
 
@@ -7,15 +7,14 @@ import "atropos/css";
 const Nosotros = () => {
   return (
     <section className="h-full w-full flex flex-col items-center justify-start bg-brown pt-32 pb-48">
-      <h1 className="text-brown-dark-2 title-style">Nosotros</h1>
+      <h1 className="text-brown-dark-2 title-style z-10">Nosotros</h1>
       <Atropos
-        shadow={false}
         highlight={false}
         rotateXMax={6}
         rotateYMax={6}
-        activeOffset={40}
+        activeOffset={50}
       >
-        <div className="flex justify-center items-center bg-brown-cookie flex-col lg:flex-row mt-16 m-4 border-2 rounded border-brown2 p-6">
+        <div className="flex justify-center items-center bg-brown-cookie flex-col lg:flex-row mt-16 m-4 rounded p-6">
           <div className="w-2/3 h-full justify-between text-xl flex flex-col text-center items-center text-brown-dark pt-6">
             <h2 className="text-2xl pb-7">
               Hola!, somos un pequeño emprendimiento llamado Cookta

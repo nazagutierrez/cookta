@@ -10,7 +10,7 @@
       @apply relative transition-all text-brown-dark after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:w-0 after:h-px after:bg-yellow-900/60 hover:after:w-full after:transition-all text-7xl;
     }
     .slider-item {
-      @apply hover:bg-brown-light bg-brown-cookie p-3 rounded-md w-full text-xl transition-all cursor-pointer;
+      @apply hover:bg-brown2 bg-brown p-3 rounded-md w-full text-xl transition-all cursor-pointer;
     }
 }
 
@@ -19,12 +19,20 @@
 }
 
 .initial-transition-bg {
-  background-image: url("./assets/pattern-bg.jpg");
+  background-image: url("./assets/pattern-bg.webp");
 }
 
 .home-bg {
-  background-image: url("./assets/pattern-bg.jpg");
+  background-image: url("./assets/pattern-bg.webp");
   backdrop-filter: blur(5px);
+}
+
+.atropos-shadow {
+  left: -120px !important;
+  height: 110% !important;
+  width: 120% !important;
+  background: #7255339f !important;
+  filter: blur(60px) !important;
 }
 
 .blur-l-box {
