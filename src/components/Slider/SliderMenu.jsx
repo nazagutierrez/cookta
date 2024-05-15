@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Drawer, Box } from "@mui/material";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
-import logoCookta from "../../assets/logo-cookta.png";
-import { motion } from "framer-motion";
+import logoCookta from "../../assets/logo-cookta.webp";
 import { SiInstagram } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
 
@@ -27,52 +26,38 @@ const SliderMenu = () => {
           p={2}
           width="210px"
           textAlign={"center"}
-          className="flex flex-col justify-between h-full bg-brown"
+          className="flex flex-col justify-between h-full bg-brown-cookie"
         >
           <div className="slider flex flex-col justify-between h-full items-center">
             <div className="top-slider pb-10 pt-3 flex w-full items-center justify-around">
               <img
                 src={logoCookta}
                 alt="logo-cookta"
-                className="w-36 cursor-pointer rounded-md"
+                className="w-36 h-20 cursor-pointer rounded-md"
               />
             </div>
             <div className="mid-slider flex flex-col h-full font-medium items-center gap-3">
-              <div className="slider-item nav-item">
-                <Link to="https://cooktacookies.web.app/">Inicio</Link>
-              </div>
-              <div className="slider-item nav-item">
-                <Link to="/nosotros">Nosotros</Link>
-              </div>
-              <div className="slider-item nav-item">
-                <Link to="/como-comprar">Como Comprar</Link>
-              </div>
+                <Link className="slider-item nav-item" to="/">Inicio</Link>
+                <Link className="slider-item nav-item" to="/nosotros">Nosotros</Link>
+                <Link className="slider-item nav-item" to="/como-comprar">Como Comprar</Link>
             </div>
             <div className="bottom-slider flex gap-10">
-              <motion.a
+              <a
                 className="text-3xl cursor-pointer"
-                whileHover={{ scale: 1.15, rotate: 2 }}
-                whileTap={{
-                  scale: 0.98,
-                  rotate: 0,
-                }}
                 href="https://www.instagram.com/cookta__/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <SiInstagram />
-              </motion.a>
-              <motion.a
+              </a>
+              <a
                 className=" text-3xl cursor-pointer"
-                whileHover={{ scale: 1.15, rotate: 2 }}
-                whileTap={{
-                  scale: 0.98,
-                  rotate: 0,
-                }}
                 href="https://wa.me/2364673632/?text=Hola!%20Me%20interesa%20un%20producto"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsWhatsapp />
-              </motion.a>
+              </a>
             </div>
           </div>
         </Box>
