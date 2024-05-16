@@ -4,7 +4,7 @@ import Atropos from "atropos/react";
 import "atropos/css";
 
 
-const Nosotros = () => {
+const AboutUs = () => {
   return (
     <section className="h-full w-full flex flex-col items-center justify-start bg-brown pt-32 pb-48">
       <h1 className="text-brown-dark-2 title-style z-10">Nosotros</h1>
@@ -43,4 +43,4 @@ const Nosotros = () => {
   );
 };
 
-export default Nosotros;
+export default AboutUs;
