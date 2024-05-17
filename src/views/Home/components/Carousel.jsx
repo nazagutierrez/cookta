@@ -84,7 +84,7 @@ const Carousel = ({ imgArray, handleClose }) => {
         >
           {"<"}
         </Button>
-        <div className="relative h-96 w-96 overflow-hidden">
+        <div className="relative h-72 w-72 sm:h-96 sm:w-96 overflow-hidden">
           <AnimatePresence initial={false} custom={direction}>
             <motion.img
               variants={variants}

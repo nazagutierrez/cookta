@@ -35,7 +35,7 @@ export default function CookieModal({
     <>
       <div
         onClick={handleOpen}
-        className="w-full h-full flex flex-col gap-2 items-center justify-center"
+        className="w-full h-full flex flex-col gap-2 items-center justify-around"
       >
         {children}
       </div>
@@ -53,7 +53,7 @@ export default function CookieModal({
         <Fade in={open}>
           <Box
             sx={style}
-            className={`${bgColor} bg-opacity-100 w-[350px] sm:w-[450px]`}
+            className={`${bgColor} bg-opacity-100 w-[300px] sm:w-[450px] focus-visible:outline-none`}
           >
             <Carousel handleClose={handleClose} imgArray={imgArray} />
             <div className={`${textColor} text-xl mt-4 font-medium`}>
