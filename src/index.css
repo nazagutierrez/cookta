@@ -15,7 +15,7 @@
 }
 
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', system-ui;
 }
 
 .home-bg {
@@ -31,10 +31,10 @@
 }
 
 .blur-l-box {
-  box-shadow: -20px 0 15px 20px #C29A6A;
+  box-shadow: -25px 0 15px 20px #C29A6A;
 }
 .blur-r-box {
-  box-shadow: 20px 0 15px 20px #C29A6A;
+  box-shadow: 25px 0 15px 20px #C29A6A;
 }
 
 .blur-box {
