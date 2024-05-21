@@ -7,7 +7,7 @@
       @apply relative transition-all text-brown-dark after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:w-0 after:h-px after:bg-yellow-900 hover:after:w-full after:transition-all cursor-pointer text-2xl;
     }
     .title-style {
-      @apply text-brown-dark text-7xl;
+      @apply text-brown-dark text-6xl sm:text-7xl;
     }
     .slider-item {
       @apply hover:bg-brown2 bg-brown p-3 rounded-md w-full text-xl transition-all cursor-pointer;
@@ -23,10 +23,12 @@
 }
 
 .atropos-shadow {
-  left: -120px !important;
-  height: 110% !important;
-  width: 120% !important;
-  background: #72553369 !important;
+  box-shadow: 0px 0px 10px 10px #000000 !important;
+  left: -13px !important;
+  top: 50px !important;
+  height: 92% !important;
+  width: 102% !important;
+  background: none !important;
   filter: blur(50px) !important;
 }
 
