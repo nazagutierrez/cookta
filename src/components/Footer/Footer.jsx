@@ -11,12 +11,12 @@ const Footer = () => {
 
   return (
     <>
-      <div className="flex w-full justify-around border-t xl:justify-between bg-brown-cookie h-32 border-b border-brown-dark/40 text-brown-dark">
+      <div className="flex w-full justify-around border-t xl:justify-between bg-brown-cookie h-24 md:h-32 border-b border-brown-dark/40 text-brown-dark">
         <h1 className="xl:flex text-6xl font-light p-6 h-full items-center justify-start hidden">
           Cookta
         </h1>
         <div className="flex justify-center gap-20">
-          <div className="flex flex-col items-center text-2xl justify-center gap-1.5 text-center">
+          <div className="flex flex-col items-center text-xl sm:text-2xl justify-center gap-1.5 text-center">
             <p className="text-brown-dark font-normal">Seguinos en Instagram</p>
             <a
               className="hover:opacity-60 transition-all"
@@ -36,10 +36,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="h-full flex items-center justify-start">
-          <div className="flex flex-col md:flex-row text-2xl font-normal mr-6 gap-1 text-center">
+          <div className="flex flex-col md:flex-row text-xl sm:text-2xl font-normal mr-6 gap-1 text-center">
             <p>Cocinera:</p>
             <a
-              className="italic nav-item"
+              className="italic nav-item text-xl sm:text-2xl"
               href="https://www.instagram.com/ccatamercado"
               target="_blank"
               rel="noreferrer"
@@ -49,8 +49,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center p-5 h-28 sm:h-16 w-full text-brown-dark font-medium text-center bg-brown-cookie">
-        <div>
+      <div className="flex xl:justify-between justify-around items-center p-5 h-24 sm:h-16 w-full text-brown-dark font-medium text-center bg-brown-cookie">
+        <div className="flex flex-col sm:flex-row ">
           <span>© Copyright {date}.</span>
           <span>
             {" "}
@@ -62,13 +62,13 @@ const Footer = () => {
             >
               Cookta
             </a>{" "}
-            <p className="hidden sm:inline-block">- Pastelería en Junín Buenos Aires</p>
+            <p className="hidden lg:inline-block">- Pastelería en Junín Buenos Aires</p>
           </span>
         </div>
         <div className="flex flex-col">
-          <h2 className="text-base md:text-lg flex flex-col md:flex-row gap-0 md:gap-1">
-            Creado por:
-            <span className="italic w-40 md:w-fit">Nazareno Gutierrez</span>
+          <h2 className="text-base md:text-lg flex flex-col sm:flex-row gap-x-1">
+            <h4>Creado por:</h4>
+            <span className="italic w-fit">Nazareno Gutierrez</span>
           </h2>
           <div className="text-xl flex justify-center items-center gap-4">
             <a
