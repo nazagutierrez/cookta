@@ -5,10 +5,10 @@ import AnimatedBg from "./Animated-bg";
 
 const ComoComprar = () => {
   return (
-    <div className="bg-brown relative h-screen w-full pt-28 flex flex-col items-center">
+    <div className="bg-brown relative h-full min-h-screen w-full pt-28 flex flex-col items-center">
       <AnimatedBg />
-      <h1 className="text-brown-dark-2 title-style z-20 mx-auto my-14 bg-brown blur-box">Como comprar</h1>
-      <div className="z-20 m-auto mt-10 bg-brown blur-box flex flex-col justify-center items-center w-3/5 h-fit text-center text-2xl">
+      <h1 className="text-brown-dark-2 title-style z-20 mx-auto my-6 md:my-14 bg-brown blur-box text-center">Como comprar</h1>
+      <div className="z-20 m-auto mt-10 mb-10 bg-brown blur-box flex flex-col justify-center items-center w-3/5 h-fit text-center text-xl md:text-2xl">
         <p>
           Observa la lista de productos y elige el/los que quiera/s comprar
         </p>
