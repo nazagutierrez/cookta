@@ -7,7 +7,7 @@
       @apply relative transition-all text-brown-dark after:absolute after:bottom-0 after:left-0 after:right-0 after:m-auto after:w-0 after:h-px after:bg-yellow-900 hover:after:w-full after:transition-all cursor-pointer text-2xl;
     }
     .title-style {
-      @apply text-brown-dark text-6xl sm:text-7xl;
+      @apply text-brown-dark text-5xl sm:text-7xl;
     }
     .slider-item {
       @apply hover:bg-brown2 bg-brown p-3 rounded-md w-full text-xl transition-all cursor-pointer;
