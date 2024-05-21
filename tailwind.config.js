@@ -12,6 +12,10 @@ module.exports = {
         'brown-cookie': '#a87d4d',
         'brown-budin': '#915f44'
       },
+      screens: {
+        'xs': '320px',
+        '2xl': '1470px',
+      }
     },
   },
   plugins: [],
