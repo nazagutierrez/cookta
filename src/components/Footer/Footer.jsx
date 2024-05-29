@@ -50,8 +50,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex xl:justify-between justify-around items-center p-5 h-24 sm:h-16 w-full text-brown-dark font-medium text-center bg-brown-cookie">
-        <div className="flex flex-col sm:flex-row ">
-          <span>© Copyright {date}.</span>
+        <div className="flex flex-col sm:flex-row gap-x-2">
+          <span className="self-center">© Copyright {date}.</span>
           <span>
             {" "}
             <a
