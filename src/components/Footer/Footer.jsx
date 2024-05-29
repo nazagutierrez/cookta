@@ -31,20 +31,25 @@ const Footer = () => {
             <p className="text-2xl">Recoje tu pedido en</p>
             <div className="flex items-center justify-center gap-1">
               <IoLocationSharp />
-              <p>Alvarez Rodríguez 133</p>
+              <a
+                className="nav-item text-xl"
+                href="https://maps.app.goo.gl/DfLAYdjuokKPuR2H9"
+                target="_blank"
+                rel="noreferrer"
+              >Cabrera 358</a>
             </div>
           </div>
         </div>
         <div className="h-full flex items-center justify-start">
           <div className="flex flex-col md:flex-row text-xl sm:text-2xl font-normal mr-6 gap-1 text-center">
-            <p>Cocinera:</p>
+            <p>Cocinero:</p>
             <a
               className="italic nav-item text-xl sm:text-2xl"
-              href="https://www.instagram.com/ccatamercado"
+              href="https://www.instagram.com/marcemastroiani/"
               target="_blank"
               rel="noreferrer"
             >
-              Catalina Mercado
+              Marcelo Mastroianni
             </a>
           </div>
         </div>
