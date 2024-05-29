@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdMail } from "react-icons/io";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import { SiInstagram } from "react-icons/si";
+import { BsTelephone } from "react-icons/bs";
 import { IoLocationSharp } from "react-icons/io5";
 
 const Footer = () => {
@@ -17,15 +17,13 @@ const Footer = () => {
         </h1>
         <div className="flex justify-center gap-20">
           <div className="flex flex-col items-center text-xl sm:text-2xl justify-center gap-1.5 text-center">
-            <p className="text-brown-dark font-normal">Seguinos en Instagram</p>
-            <a
-              className="hover:opacity-60 transition-all"
-              href="https://www.instagram.com/cookta__/"
-              target="_blank"
-              rel="noreferrer"
+            <p className="text-brown-dark font-normal">Hablanos a</p>
+            <div
+              className="text-xl flex items-center gap-1"
             >
-              <SiInstagram />
-            </a>
+              <BsTelephone />
+              <h3>+54 9 2364 37-3048</h3>
+            </div>
           </div>
           <div className="xl:flex flex-col items-center justify-center text-lg gap-1 hidden ">
             <p className="text-2xl">Recoje tu pedido en</p>

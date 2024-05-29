@@ -27,16 +27,7 @@ const ComoComprar = () => {
         </div>
         <CustomDivider>o también</CustomDivider>
         <div>
-          Escribenos un mensaje privado en nuestro instagram{" "}
-          <a
-            className="underline decoration-brown-dark-2 hover:decoration-2"
-            href="https://www.instagram.com/cookta__/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            @cookta
-          </a>{" "}
-          para hacer el pedido
+          Escribenos a nuestro instagram para hacer el pedido (Próximamente)
         </div>
         <CustomDivider />
         <p>El pago puede ser realizado en efectivo o por transferencia</p>
