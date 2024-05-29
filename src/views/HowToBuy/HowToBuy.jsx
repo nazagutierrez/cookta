@@ -10,18 +10,18 @@ const ComoComprar = () => {
       <h1 className="text-brown-dark-2 title-style z-20 mx-auto my-6 md:my-14 bg-brown blur-box text-center">Como comprar</h1>
       <div className="z-20 m-auto mt-10 mb-10 bg-brown blur-box flex flex-col justify-center items-center w-3/5 h-fit text-center text-xl md:text-2xl">
         <p>
-          Observa la lista de productos y elige el/los que quiera/s comprar
+          Observa la lista de productos y elige los que quieras comprar
         </p>
         <CustomDivider />
         <div>
           Llamanos o escribenos por telefono al{" "}
           <a
             className="underline decoration-brown-dark-2 hover:decoration-2"
-            href="https://wa.me/2364673632/?text=Hola!%20Quiero%20hacer%20un%20pedido"
+            href="https://wa.me/2364673632/?text=Hola!%20Quiero%20saber%20mas%20de%20Cookta"
             target="_blank"
             rel="noreferrer"
           >
-            +54 9 2364 67-3632
+           +54 9 2364 37-3048
           </a>{" "}
           para hacer el pedido
         </div>
@@ -42,7 +42,7 @@ const ComoComprar = () => {
         <p>El pago puede ser realizado en efectivo o por transferencia</p>
         <CustomDivider />
         <p>
-          Retirar el pedido por Alvarez Rodríguez 133 a una fecha y hora
+          Retirar el pedido por Cabrera 358 a una fecha y hora
           acordada{" "}
         </p>
         <CustomDivider />
