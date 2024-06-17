@@ -10,7 +10,8 @@ module.exports = {
         'brown-dark-2': '#66422d',
         'brown-light': '#e0a37f',
         'brown-cookie': '#a87d4d',
-        'brown-budin': '#915f44'
+        'brown-budin': '#915f44',
+        'brown-budin-card': '#9c6b51'
       },
       screens: {
         'xs': '320px',
